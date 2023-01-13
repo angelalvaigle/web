@@ -9,34 +9,47 @@
 </head>
 <script type="application/ld+json">
     {
-        "@context": {
-        "schema": "https://schema.org/"
-        },
-        "@type": "schema:Book",
-        "schema:url": "https://es.literaturasm.com/libro/polican",
-        "schema:name": "Policán",
-        "schema:author": {
-            "@type": "schema:Person",
-            "schema:familyName": "Pilkey",
-            "schema:givenName": "Dav"
-        },
-        "schema:isFamilyFriendly": "true",
-        "schema:abstract": "Un nuevo cómic de Jorge y Berto, 
-            ¡protagonizado por un héroe muy perruno! 
-            Gracias a su olfato humano y a su inteligencia perruna... o al revés... 
-            En fin, que Policán es un hacha combatiendo el crimen y tal. 
-            ¡Cuatro historietas tronchantes para pasar un rato ladrando de risa!",
-        "schema:publisher": {
-            "@type": "schema:Corporation",
-            "schema:name": "Ediciones SM"
-        },
-        "schema:datePublished": "2017-10-10",
-        "schema:isPartOf": "http://www.wikidata.org/entity/Q56302682",
-        "schema:numberOfPages": "232",
-        "schema:inLanguage": "es",
-        "schema:isbn": "9788467594454",
-        "schema:bookFormat": "Hardcover"
-    }
+    "@context": {
+        "schema": "https://schema.org/",
+        "wd": "https://www.wikidata.org/entity/"
+    },
+    "@id": "urn:isbn:9788467594454",
+    "@type": "schema:Book",
+    "schema:abstract": "Un nuevo cómic de Jorge y Berto, ¡protagonizado por un héroe muy perruno! Gracias a su olfato humano y a su inteligencia perruna... o al revés... En fin, que Policán es un hacha combatiendo el crimen y tal.¡Cuatro historietas tronchantes para pasar un rato ladrando de risa!",
+    "schema:author": {
+        "@id": "wd:Q2550486",
+        "@type": "schema:Person",
+        "schema:familyName": "Pilkey",
+        "schema:givenName": "Dav"
+    },
+    "schema:bookFormat": "Hardcover",
+    "schema:datePublished": "2017-10-10",
+    "schema:inLanguage": "es",
+    "schema:isFamilyFriendly": "true",
+    "schema:isPartOf": {
+        "@id": "wd:Q56302682",
+        "@type": "schema:BookSeries",
+        "schema:name": {
+            "@language": "es",
+            "@value": "Policán"
+        }
+    },
+    "schema:isbn": "9788467594454",
+    "name": {
+        "@language": "es",
+        "@value": "Policán"
+    },
+    "schema:numberOfPages": "232",
+    "schema:publisher": {
+        "@id": "wd:Q5886430",
+        "@type": "schema:Corporation",
+        "schema:name": {
+            "@language": "es",
+            "@value": "Ediciones SM"
+        }
+    },
+    "schema:url": "https://es.literaturasm.com/libro/polican"
+}
 </script>
 <body>
     <h1>Policán</h1>
